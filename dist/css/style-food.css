@@ -1,0 +1,39 @@
+.sample {
+  width: 996px;
+  height: auto;
+  margin: 0 auto; }
+  .sample ul li {
+    list-style-type: none;
+    float: left;
+    width: 322px;
+    margin-right: 14px;
+    margin-bottom: 14px; }
+    .sample ul li a {
+      display: block; }
+      .sample ul li a .mode {
+        width: 322px;
+        overflow: hidden;
+        height: 255px; }
+        .sample ul li a .mode img {
+          width: 322px;
+          display: block;
+          transition: all 0.8s ease 0s;
+          height: 255px; }
+          .sample ul li a .mode img:hover {
+            transform: scale(1.3, 1.3); }
+      .sample ul li a .jieshao {
+        width: 322px;
+        background: #87d0e3;
+        display: inline-block;
+        height: 50px; }
+        .sample ul li a .jieshao p {
+          line-height: 25px;
+          color: white;
+          font-size: 13px;
+          padding-left: 30px; }
+        .sample ul li a .jieshao label {
+          color: white;
+          font-size: 12px;
+          padding-left: 10px; }
+  .sample ul li:nth-child(3n) {
+    margin-right: 0px; }

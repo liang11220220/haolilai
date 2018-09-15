@@ -1,0 +1,23 @@
+//注册页面的
+.zhuce{width: 996px;margin: 0 auto 20px;padding:45px 0 55px;overflow: hidden;
+		form{
+			 dl{width: 280px;height: 40px;margin:0 auto;background: #ededed;line-height: 40px;margin-bottom: 10px;
+			 	dt{width:80px;float: left;border-right: 5px solid #fff;text-align: center;font-size: 14px;padding: 0 5px 0 10px;
+			 	   }
+			 	dd{width:180px;height: 40px;line-height: 40px;float: left;
+			 		input{width: 170px;float: left;display: inline-block;background: none;height: 40px; line-height: 40px;padding-left: 10px;font-size: 14px;color: #626262;border:none}
+			 	  }
+			 	 .tishi{display: none; width:300px;height: 32px;float: left;padding-left: 300px;position: absolute;font-size: 14px;color: red;
+			 				span{display: inline-block;padding: 0 20px 0 40px;background: #ff9999;height: 32px;line-height: 32px}
+			 		}
+			    }
+			    .btns{width: 280px;margin: 0 auto;overflow: hidden;text-align: center;background: #87d0e3;
+			 	  .zhuce-a{width: 280px;height: 40px;line-height: 40px;display: block;}
+				  }
+              }
+	  }
+.line{text-align:center; padding-left:0; width:996px; background:#fff; line-height:30px; height:30px; margin-bottom:10px;margin: 0 auto;
+		.line-l{float: left;width: 40%;display: inline-block;border-top: 1px dashed #d5d5d5;margin-top: 14px;}
+		.line-r{float: right;width: 40%;display: inline-block;border-top:1px dashed #d5d5d5;margin-top: 14px; }
+		.line-wen{width: 15%;display: inline-block;color: #909090;font-weight: bold;font-size: 16px;}
+	}

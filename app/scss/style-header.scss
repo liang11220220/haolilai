@@ -1,0 +1,51 @@
+$font-color:green #6bc4df!default;
+div,p,span,h1,h2,h3,h4,h5,h6,img,dl,dd,dt,a,ul,li{margin:0;padding: 0}
+a{text-decoration: none;}
+img{border:0px;}
+
+header .header{width: 996px;height:115px;margin-left:auto;margin-right: auto;margin-bottom: 10px;
+				.logo{width: 151px;height: 61px;margin-top: 33px;float: left;
+					}
+			 }
+
+header .head-right{float:right;width: 845px;height:75;margin-top: 25px;
+					.h-login{width: 845px;height: 25px;margin-top: -8px;
+							#kong{float: right;text-align:center;width: 100px;height: 25px;line-height: 25px;display: block;
+									a{color:#6bc4df;font-size: 13px;margin-left: 15px;
+										&:hover{color: #B0B0B0;text-decoration: underline;}}
+								}
+							#user{float: right;text-align:center;width: 180px;height: 25px;line-height: 25px;display: none;
+									a{color:#6bc4df;font-size: 13px;margin-left: 15px;
+									}
+								}
+							}
+					}
+
+header .head-right .h-login span{text-align:center;width: 50px;height: 25px;margin-right: 20px;line-height: 25px;float: right;
+									a{color:#6bc4df;font-size: 13px;display: block;width: 50px;height: 25px;text-align: right;background: url("/images/che.png") no-repeat -2px 3px;
+									}
+								}
+
+header .head-right .menu{width: 664px;height: 49px;padding-right: 50px;float: left;
+							ul{
+								li{text-align:center;float: left; width: 165px; border-right: 1px solid #6bc4df; position: relative;list-style-type: none;
+									a{color:nth($font-color,2);width: 165px;height: 55px;display: block;text-decoration: none;
+										span{width: 100%; display: inline-block;font-size: 14px; height: 25px;line-height: 25px;
+											}
+									 &:hover{color: white;background: #6bc4df;}}
+									}
+								}
+						}
+header .head-right .tel{color:#6bc4df;font-size: 14px;float: left;margin-top: 2px; height: 19px;line-height: 19px;width: 120px;margin-left: 5px;
+						img{height: 16px;width: 18px;
+							}
+						}
+header .head-right .search{float: left;margin-top: 2px;width: 120px;height: 25px;margin-left: 5px;
+							#search-input{width:75px;height: 20px;float: left;border:1px solid #6bc4df;
+									}
+							#search-btn{padding:0px;width: 23px;height: 23px;float: left;display: block;background:url(../images/11.png) no-repeat;border: none;margin-left: 10px}
+									}
+
+
+
+

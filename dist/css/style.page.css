@@ -1,0 +1,27 @@
+.page {
+  width: 996px;
+  height: 40px;
+  background: #B0B0B0;
+  margin: 0 auto 30px; }
+  .page .pagenum {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px; }
+    .page .pagenum span {
+      width: 40px;
+      line-height: 20px;
+      height: 20px;
+      float: left;
+      text-align: center;
+      font-size: 13px;
+      color: white; }
+    .page .pagenum a {
+      width: 18px;
+      height: 18px;
+      border: 1px solid white;
+      float: left;
+      background: white;
+      color: #B0B0B0;
+      text-align: center;
+      margin: 0 4px; }

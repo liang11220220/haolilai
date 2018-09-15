@@ -1,0 +1,37 @@
+.footer-help {
+  width: 996px;
+  transition: all 0.3s ease 0s;
+  margin: 10px auto;
+  overflow: hidden; }
+  .footer-help .help-m {
+    height: 25px;
+    width: 996px;
+    background: #ededed;
+    overflow: hidden;
+    transition: all 0.5s linear 0s; }
+    .footer-help .help-m:hover {
+      height: 120px; }
+    .footer-help .help-m .p1 {
+      line-height: 25px;
+      cursor: pointer;
+      height: 25px;
+      width: 976px;
+      padding-left: 20px;
+      background: #ededed; }
+
+.footer-help .help-m dl {
+  float: left;
+  width: 150px;
+  padding-left: 11px; }
+
+.footer-help .help-m dt {
+  padding-left: 28px;
+  height: 23px;
+  margin-bottom: 7px;
+  background: url(../images/f1.png) no-repeat; }
+
+.footer-help .help-m dd {
+  width: 100px;
+  height: 20px;
+  padding-left: 35px;
+  overflow: hidden; }

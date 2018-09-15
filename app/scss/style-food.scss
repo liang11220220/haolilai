@@ -1,0 +1,21 @@
+.sample{width: 996px;height: auto;margin: 0 auto;
+		ul{
+			li{list-style-type: none;float: left;width: 322px;margin-right: 14px;margin-bottom: 14px;
+				a{display: block;
+				  .mode{width:322px;overflow: hidden;height: 255px;
+				  	   img{width: 322px;display: block;transition:all 0.8s ease 0s;height: 255px;
+				    	&:hover{transform:scale(1.3,1.3)}}
+				   }
+				 
+
+				  .jieshao{width: 322px;background: #87d0e3;display: inline-block;height: 50px;
+						p{line-height: 25px;color: white;font-size: 13px;padding-left: 30px;}
+						label{color: white;font-size: 12px;padding-left: 10px;}
+				 		}
+				}
+			}
+			li:nth-child(3n) {margin-right: 0px;}
+		}
+	}
+
+

@@ -1,0 +1,173 @@
+.wu {
+  width: 996px;
+  margin: 0 auto; }
+  .wu .wu-l {
+    width: 485px;
+    height: 485px;
+    float: left;
+    border: 1px solid #2093cc; }
+    .wu .wu-l img {
+      width: 485px;
+      height: 485px; }
+  .wu .wu-r {
+    width: 485px;
+    float: right;
+    height: 485px; }
+    .wu .wu-r .wu-p {
+      height: 290px;
+      width: 485px;
+      border: 1px solid #2093cc; }
+      .wu .wu-r .wu-p img {
+        height: 290px;
+        width: 485px; }
+    .wu .wu-r .xinxi {
+      width: 485px;
+      height: 70px; }
+      .wu .wu-r .xinxi .xinxi-info {
+        height: 70px;
+        width: 485px; }
+        .wu .wu-r .xinxi .xinxi-info .name {
+          width: 260px;
+          float: left;
+          height: 70px; }
+          .wu .wu-r .xinxi .xinxi-info .name h2 {
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            color: #2093cc; }
+          .wu .wu-r .xinxi .xinxi-info .name p {
+            height: 30px;
+            line-height: 30px;
+            color: #2093cc; }
+        .wu .wu-r .xinxi .xinxi-info .price {
+          padding-top: 40px;
+          height: 30px;
+          float: right;
+          line-height: 30px; }
+          .wu .wu-r .xinxi .xinxi-info .price i {
+            float: left;
+            font-size: 20px;
+            color: #2093cc;
+            height: 30px;
+            line-height: 30px; }
+          .wu .wu-r .xinxi .xinxi-info .price #price1 {
+            float: left;
+            font-size: 20px;
+            color: #2093cc;
+            height: 30px;
+            line-height: 30px;
+            display: block; }
+          .wu .wu-r .xinxi .xinxi-info .price #price2 {
+            float: left;
+            font-size: 20px;
+            color: #2093cc;
+            height: 30px;
+            line-height: 30px;
+            display: none; }
+      .wu .wu-r .xinxi .type {
+        width: 217px;
+        height: 50px;
+        padding-left: 20px;
+        margin: 12px 12px 12px 0;
+        font-size: 13px;
+        color: #fff;
+        background: #2093cc;
+        float: left;
+        line-height: 50px; }
+        .wu .wu-r .xinxi .type select {
+          height: 30px;
+          width: 170px;
+          color: #2093cc; }
+      .wu .wu-r .xinxi .addche {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: 12px 0;
+        color: #fff;
+        font-size: 15px;
+        background: #2093cc;
+        line-height: 50px; }
+      .wu .wu-r .xinxi .buy {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        color: #2093cc;
+        font-size: 15px;
+        background: yellow;
+        margin-right: 15px;
+        line-height: 50px; }
+      .wu .wu-r .xinxi .xq {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        background: #2093cc;
+        line-height: 50px; }
+
+.main {
+  overflow: hidden; }
+
+.imgs {
+  width: 996px;
+  height: auto;
+  margin: 10px auto  0;
+  overflow: hidden;
+  display: none; }
+  .imgs img {
+    width: 996px; }
+
+.sample2 {
+  width: 996px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden; }
+  .sample2 h4 {
+    font-size: 14px;
+    color: #2093cc;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .sample2 ul {
+    width: 1330px;
+    height: 268px;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 1.2s; }
+    .sample2 ul .more-ul {
+      height: 268px; }
+      .sample2 ul .more-ul li {
+        list-style-type: none;
+        float: left;
+        width: 322px;
+        margin-left: 14px; }
+        .sample2 ul .more-ul li a {
+          display: block; }
+          .sample2 ul .more-ul li a .jieshao {
+            width: 322px;
+            background: #87d0e3;
+            display: inline-block;
+            height: 50px; }
+            .sample2 ul .more-ul li a .jieshao p {
+              line-height: 25px;
+              color: white;
+              font-size: 13px;
+              padding-left: 30px; }
+            .sample2 ul .more-ul li a .jieshao label {
+              color: white;
+              font-size: 12px;
+              padding-left: 10px; }
+          .sample2 ul .more-ul li a .jieshao-p {
+            width: 322px;
+            height: 218px;
+            overflow: hidden; }
+            .sample2 ul .more-ul li a .jieshao-p img {
+              width: 322px;
+              transition: all 0.8s ease 0s; }
+              .sample2 ul .more-ul li a .jieshao-p img:hover {
+                transform: scale(1.3, 1.3); }
+
+.sample2 ul li:nth-child(1) {
+  margin-left: 0px; }

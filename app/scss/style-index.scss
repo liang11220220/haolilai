@@ -1,0 +1,62 @@
+//index.css的css
+
+.lun{width: 996px;height:450px; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10px;border: 1px solid green;
+	ul{
+		li{width: 996px;height: 450px;position: absolute;left: 0;top: 0;
+			a{width: 996px;height: 450px;display: block;
+				img{width: 996px;height: 450px;}
+			}
+		  }
+	}
+}
+	ul li.ac{z-index: 5;}
+.lun{ol{position:absolute;right: 45%;bottom: 10px;z-index:6;
+		 li{width: 15px;height: 15px;background: #fff;margin-left: 5px;float: left;line-height: 20px;text-align: center;border-radius:50%;list-style-type: none;} }}
+.lun ol li.ac{background: red;color: #fff;}
+#goPrev{left: 0;text-decoration: none;position: absolute;top: 50%;margin-top: -10px;height: 40px;line-height: 32px;text-align: center;width: 40px;font-size: 40px;vertical-align: middle;color: #fff;background: rgba(0,0,0,0.5);z-index:6;}
+#goNext{right: 0;text-decoration: none;position: absolute;top: 50%;margin-top: -10px;height: 40px;line-height: 32px;text-align: center;width: 40px;font-size: 40px;vertical-align: middle;color: #fff;background: rgba(0,0,0,0.5);z-index:6;}
+
+.sample{width: 996px;height: auto;margin: 0 auto;
+		ul{
+			li{list-style-type: none;float: left;width: 322px;margin-right: 14px;margin-bottom: 14px;
+				a{display: block;
+				  .mode{width: 322px;height: 255px;overflow: hidden;
+						img{width: 322px;display: block;height: 255px;transition:all 0.8s ease 0s;
+							&:hover{transform:scale(1.3,1.3)}}
+				  	}
+				  .jieshao{width: 322px;background: #87d0e3;display: inline-block;height: 50px;
+						p{line-height: 25px;color: white;font-size: 13px;padding-left: 20px;}
+						label{color: white;font-size: 12px;padding-left: 10px;}
+				 		}
+				}
+			}
+		}
+	}
+.sample ul li:nth-child(3n) {margin-right: 0px;}
+.video{width: 996px;height:auto;margin:0 auto;
+		.video-l{float: left;margin-right: 11px;margin-top:10px;
+				img{width: 240px;height: 420px;}
+				}
+		.video-r{float: left;margin-top:10px;
+				video{width: 745px;height: 420px;}
+				}
+
+	  }
+.sample1{width: 996px;height: auto;margin: 0 auto;
+		ul{
+			li{list-style-type: none;float: left;width: 322px;margin-left: 14px;
+				a{display: block;
+				  .jieshao{width: 322px;background: #87d0e3;display: inline-block;height: 50px;
+						p{line-height: 25px;color: white;font-size: 13px;padding-left: 20px;}
+						label{color: white;font-size: 12px;padding-left: 10px;}
+				 		}
+				  .jieshao-p{width: 322px;height: 218px;overflow: hidden;
+							img{width: 322px;transition:all 0.8s ease 0s;
+							&:hover{transform:scale(1.3,1.3)}
+							   }
+							 }
+				}
+			}
+		}
+	}
+.sample1 ul li:nth-child(1) {margin-left: 0px;}

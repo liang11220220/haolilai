@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html style="font-size:16px">
+<head>
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/index.js"></script>
+	<!--require.js的主入口-->
+</head>
+<body>
+	<header>
+	</header>
+
+	<div class="main" id="main">
+		<div class="lun" id="lun">
+			<ul class="lunimg">
+				<!--li a img -->
+				<li><a href="javascript:;" ><img id="3" src="/images/lun1.jpg" alt=""></a></li>
+				<li><a href="javascript:;" ><img id="9" src="/images/lun2.jpg" alt=""></a></li>
+				<li><a href="javascript:;" ><img id="1" src="/images/lun3.jpg" alt=""></a></li>
+				<li><a href="javascript:;" ><img id="24" src="/images/lun4.jpg" alt=""></a></li>
+			</ul>
+			<ol>
+				<li class="ac"></li>
+    			<li></li>
+    			<li></li>
+    			<li></li>
+
+			</ol>
+			 <a href="javascript:;" id="goPrev">&laquo;</a>
+    		 <a href="javascript:;" id="goNext">&raquo;</a>
+		</div>
+		<div class="sample">
+			<ul>
+				<li><a href="/html/all.html" id="type1"><div class="mode"><img src="images/1.jpg" alt=""></div><div class="jieshao"><p>全部样品</p><label>CLASSIC SERIES</label></div></a></li>
+				<li><a href="/html/cake.html" id="type2"><div class="mode"><img src="images/2.jpg" alt=""></div><div class="jieshao"><p>蛋糕系列</p><label>CLASSIC SERIES</label></div></a></li>
+				<li><a href="/html/tiandian.html" id="type3"><div class="mode"><img src="images/3.jpg" alt=""></div><div class="jieshao"><p>甜点系列</p><label>CLASSIC SERIES</label></div></a></li>
+			</ul>
+		</div>
+
+
+		<div class="video">
+
+			<div class="video-l"><img src="images/video-l.jpg" alt=""></div>
+			<div class="video-r">
+				<video id="theVideo" controls loop="false" poster="images/video-img.jpg" style="cursor: pointer;" src="./video/cake.mp4">
+				</video>
+			</div>
+		</div>
+		<div class="sample1">
+			<ul>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="images/4.jpg" alt=""></div><div class="jieshao"><p>配送包</p><label>DELIVERY PACKAGE</label></div></a></li>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="images/5.jpg" alt=""></div><div class="jieshao"><p>店面形象</p><label>STORE IMAGES</label></div></a></li>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="images/6.jpg" alt=""></div><div class="jieshao"><p>配送服务</p><label>DELIVERY SERVICE</label></div></a></li>
+			</ul>
+	</div>
+	</div>
+
+	<div class="footer-help"></div>
+	<footer>
+
+	</footer>
+<!-- <div id="content"></div> -->
+<!-- <script type="text/html" id="list">
+	  <ul>
+
+	 		{{each data item index}}
+	 			<li>
+	 			{{each item value key}}
+	 					<b>{{key}}</b>:<i>{{value}}</i>
+	 			{{ /each}}
+	 			</li>
+	 		{{ /each }}
+	 		{{each data item index}}
+	 				<li>{{item.name}}&nbsp;{{item.age}}</li>
+	 		{{/each}}
+	 	</ul>
+</script> -->
+
+<!-- <script>
+	$("#type1").on("click",function(){$("#main").html("")});
+	$("#type2").on("click",function(){$("#main").html("")});
+	$("#type3").on("click",function(){$("#main").html("")});
+</script> -->
+</body>
+</html>

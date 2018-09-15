@@ -1,0 +1,10 @@
+div, p, span, h1, h2, h3, h4, h5, h6, img, dl, dd, dt, a, ul, li, select, b, option {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  border: 0px; }

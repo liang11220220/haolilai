@@ -1,0 +1,50 @@
+footer {
+  width: 996px;
+  height: 200px;
+  background: #fff;
+  border-top: 1px solid #d5d5d5;
+  margin: 10px auto;
+  font-size: 12px; }
+  footer .foot-right {
+    float: right;
+    margin-top: 10px;
+    width: 90px;
+    position: relative; }
+    footer .foot-right:hover .fenxiang {
+      display: block; }
+    footer .foot-right h4 {
+      font-size: 13px;
+      font-weight: normal; }
+    footer .foot-right .tu a {
+      margin: 5px 0 0 13px;
+      float: left;
+      width: 31px;
+      height: 35px;
+      background: url(../images/weixin-log.png) no-repeat center; }
+    footer .foot-right .fenxiang {
+      width: 180px;
+      height: 190px;
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      position: absolute;
+      left: -200px;
+      top: -10px;
+      z-index: 2;
+      display: none; }
+      footer .foot-right .fenxiang p {
+        height: 25px;
+        border-bottom: 1px solid #ccc;
+        padding-left: 15px;
+        line-height: 25px; }
+      footer .foot-right .fenxiang img {
+        margin: 5px 15px;
+        height: 150px;
+        width: 150px; }
+  footer span {
+    display: block;
+    float: left;
+    width: 420px; }
+    footer span p {
+      margin: 10px 0;
+      color: #898989;
+      line-height: 20px; }

@@ -1,0 +1,89 @@
+.zhuce {
+  width: 996px;
+  margin: 0 auto 20px;
+  padding: 45px 0 55px;
+  overflow: hidden; }
+  .zhuce form dl {
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ededed;
+    line-height: 40px;
+    margin-bottom: 10px; }
+    .zhuce form dl dt {
+      width: 80px;
+      float: left;
+      border-right: 5px solid #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 5px 0 10px; }
+    .zhuce form dl dd {
+      width: 180px;
+      height: 40px;
+      line-height: 40px;
+      float: left; }
+      .zhuce form dl dd input {
+        width: 170px;
+        float: left;
+        display: inline-block;
+        background: none;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+        color: #626262;
+        border: none; }
+    .zhuce form dl .tishi {
+      display: none;
+      width: 300px;
+      height: 32px;
+      float: left;
+      padding-left: 300px;
+      position: absolute;
+      font-size: 14px;
+      color: red; }
+      .zhuce form dl .tishi span {
+        display: inline-block;
+        padding: 0 20px 0 40px;
+        background: #ff9999;
+        height: 32px;
+        line-height: 32px; }
+  .zhuce form .btns {
+    width: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background: #87d0e3; }
+    .zhuce form .btns .zhuce-a {
+      width: 280px;
+      height: 40px;
+      line-height: 40px;
+      display: block; }
+
+.line {
+  text-align: center;
+  padding-left: 0;
+  width: 996px;
+  background: #fff;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin: 0 auto; }
+  .line .line-l {
+    float: left;
+    width: 40%;
+    display: inline-block;
+    border-top: 1px dashed #d5d5d5;
+    margin-top: 14px; }
+  .line .line-r {
+    float: right;
+    width: 40%;
+    display: inline-block;
+    border-top: 1px dashed #d5d5d5;
+    margin-top: 14px; }
+  .line .line-wen {
+    width: 15%;
+    display: inline-block;
+    color: #909090;
+    font-weight: bold;
+    font-size: 16px; }

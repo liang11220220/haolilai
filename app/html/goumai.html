@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html style="font-size:16px">
+<head>
+	<title>物品详情</title>
+	<link rel="stylesheet" type="text/css" href="/css/goumai.css">
+	<!-- <script type="text/javascript" src="/libs/require.js" data-main="/js/index.js"></script> -->
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/goumai.js"></script>
+
+</head>
+<body>
+	<header>
+	</header>
+
+	<div class="main">
+		<div class="wu">
+		</div>
+	<script type="text/html" id="wu">
+		{{each data item index}}
+		<div class="wu-l">
+		<img src="{{item.ximg1}}" alt="">
+	</div>
+	<div class="wu-r">
+		<div class="wu-p">
+			<img id="tupian" src="{{item.ximg2}}" alt="">
+		</div>
+		<div class="xinxi">
+			<div class="xinxi-info">
+			<span class="name">
+				<h2 id="wuname">{{item.name}}</h2>
+				<p id="wusx">{{item.des}}</p>
+			</span>
+			<span class="price">
+				<i>￥</i><h2 id=price1>{{item.price1}}</h2><h2 id="price2">{{item.price2}}</h2>
+			</span>
+			</div>
+			<div class="type">
+				规格
+				<select id="sel" >
+					<option  value = "1" >{{item.spe1}}</option >
+					<option  value = "2" >{{item.spe2}}</option >
+				</select >
+			</div>
+	
+			<a href="javascript:;"><div class="addche">加入购物车</div></a>
+			<a href="/html/gouwuche.html"><div class="buy">立即购买</div></a>
+			<a href="javascript:;"><div class="xq">详情</div></a>
+		</div>
+	
+	</div>
+	<div class="imgs">
+		<img src="{{item.bimg1}}" alt="">
+		<img src="{{item.bimg2}}" alt="">
+	</div>
+	{{/each}}
+	</script>
+	<div class="sample2">
+		<h4>更多精彩</h4>
+			<ul class="more">
+				<div class="more-ul">
+				<li class="1"><a href="javascript:;"><div class="jieshao-p"><img src="/images/1.jpg" alt=""></div><div class="jieshao"><p>配送包</p><label>DELIVERY PACKAGE</label></div></a></li>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="/images/2.jpg" alt=""></div><div class="jieshao"><p>店面形象</p><label>STORE IMAGES</label></div></a></li>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="/images/3.jpg" alt=""></div><div class="jieshao"><p>配送服务</p><label>DELIVERY SERVICE</label></div></a></li>
+				<li><a href="javascript:;"><div class="jieshao-p"><img src="/images/1.jpg" alt=""></div><div class="jieshao"><p>配送服务</p><label>DELIVERY SERVICE</label></div></a></li>
+				</div>
+			</ul>
+	</div>
+
+	</div>
+	<div class="footer-help"></div>
+	<footer></footer>
+<!-- <div id="content"></div> -->
+<!-- <script type="text/html" id="list">
+	  <ul>
+	 		{{each data item index}}
+	 			<li>
+	 			{{each item value key}}
+	 					<b>{{key}}</b>:<i>{{value}}</i>
+	 			{{ /each}}
+	 			</li>
+	 		{{ /each }}
+	 
+	 		{{each data item index}}
+	 				<li>{{item.name}}&nbsp;{{item.age}}</li>
+	 		{{/each}}
+	 	</ul> 
+</script> -->
+</body>
+</html>

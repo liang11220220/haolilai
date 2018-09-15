@@ -1,0 +1,591 @@
+/* div,p,span,h1,h2,h3,h4,h5,h6,img,dl,dd,dt,a,ul,li,ol,label{margin:0;padding: 0}
+a{text-decoration: none;}
+img{border:none;} */
+.lun {
+  width: 996px;
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid green; }
+  .lun ul li {
+    width: 996px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .lun ul li a {
+      width: 996px;
+      height: 450px;
+      display: block; }
+      .lun ul li a img {
+        width: 996px;
+        height: 450px; }
+
+ul li.ac {
+  z-index: 5; }
+
+.lun ol {
+  position: absolute;
+  right: 45%;
+  bottom: 10px;
+  z-index: 6; }
+  .lun ol li {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    margin-left: 5px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    list-style-type: none; }
+
+.lun ol li.ac {
+  background: red;
+  color: #fff; }
+
+#goPrev {
+  left: 0;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  height: 40px;
+  line-height: 32px;
+  text-align: center;
+  width: 40px;
+  font-size: 40px;
+  vertical-align: middle;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6; }
+
+#goNext {
+  right: 0;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  height: 40px;
+  line-height: 32px;
+  text-align: center;
+  width: 40px;
+  font-size: 40px;
+  vertical-align: middle;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6; }
+
+.sample {
+  width: 996px;
+  height: auto;
+  margin: 0 auto; }
+  .sample ul li {
+    list-style-type: none;
+    float: left;
+    width: 322px;
+    margin-right: 14px;
+    margin-bottom: 14px; }
+    .sample ul li a {
+      display: block; }
+      .sample ul li a .jieshao {
+        width: 322px;
+        background: #87d0e3;
+        display: inline-block;
+        height: 50px; }
+        .sample ul li a .jieshao p {
+          line-height: 25px;
+          color: white;
+          font-size: 13px; }
+
+.sample ul li:nth-child(3n) {
+  margin-right: 0px; }
+
+.sample ul li img {
+  width: 322px;
+  display: block; }
+
+.sample ul li .jieshao label {
+  color: white;
+  font-size: 12px; }
+
+.video {
+  width: 996px;
+  height: auto;
+  margin: 0 auto; }
+  .video .video-l {
+    float: left;
+    margin-right: 11px;
+    margin-top: 10px; }
+    .video .video-l img {
+      width: 240px;
+      height: 420px; }
+
+.video .video-r {
+  float: left;
+  margin-top: 10px; }
+  .video .video-r video {
+    width: 745px;
+    height: 420px; }
+
+.sample1 {
+  width: 996px;
+  height: auto;
+  margin: 0 auto; }
+  .sample1 ul li {
+    list-style-type: none;
+    float: left;
+    width: 322px;
+    margin-left: 14px; }
+    .sample1 ul li a {
+      display: block; }
+      .sample1 ul li a .jieshao {
+        width: 322px;
+        background: #87d0e3;
+        display: inline-block;
+        height: 50px; }
+        .sample1 ul li a .jieshao p {
+          line-height: 25px;
+          color: white;
+          font-size: 13px; }
+        .sample1 ul li a .jieshao label {
+          color: white;
+          font-size: 12px; }
+      .sample1 ul li a .jieshao-p {
+        width: 322px;
+        height: 218px;
+        overflow: hidden; }
+        .sample1 ul li a .jieshao-p img {
+          width: 322px;
+          transition: all 0.8s ease 0s; }
+          .sample1 ul li a .jieshao-p img:hover {
+            transform: scale(1.3, 1.3); }
+
+.sample1 ul li:nth-child(1) {
+  margin-left: 0px; }
+
+.line {
+  text-align: center;
+  padding-left: 0;
+  width: 996px;
+  background: #fff;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin: 0 auto; }
+  .line .line-l {
+    float: left;
+    width: 40%;
+    display: inline-block;
+    border-top: 1px dashed #d5d5d5;
+    margin-top: 14px; }
+  .line .line-r {
+    float: right;
+    width: 40%;
+    display: inline-block;
+    border-top: 1px dashed #d5d5d5;
+    margin-top: 14px; }
+  .line .line-wen {
+    width: 15%;
+    display: inline-block;
+    color: #909090;
+    font-weight: bold;
+    font-size: 16px; }
+
+.about-m {
+  width: 996px;
+  margin: 0 auto; }
+
+.login {
+  width: 996px;
+  margin: 0 auto 20px;
+  padding: 45px 0 55px;
+  overflow: hidden; }
+  .login form dl {
+    width: 310px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ededed;
+    line-height: 40px;
+    margin-bottom: 10px; }
+    .login form dl dt {
+      width: 50px;
+      float: left;
+      border-right: 5px solid #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 5px 0 10px; }
+    .login form dl dd {
+      width: 240px;
+      height: 40px;
+      line-height: 40px;
+      float: left; }
+      .login form dl dd input {
+        width: 140px;
+        float: left;
+        display: inline-block;
+        background: none;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+        color: #626262;
+        border: none; }
+      .login form dl dd a {
+        float: left;
+        padding-left: 8px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 13px; }
+    .login form dl .tishi {
+      display: none;
+      width: 300px;
+      height: 32px;
+      float: left;
+      padding-left: 340px;
+      position: absolute;
+      font-size: 14px;
+      color: red; }
+      .login form dl .tishi span {
+        display: inline-block;
+        padding: 0 20px 0 40px;
+        background: #ededed;
+        height: 32px;
+        line-height: 32px; }
+  .login form .btns {
+    width: 310px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .login form .btns .login-a {
+      width: 195px;
+      height: 40px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #fff;
+      margin-left: 0;
+      background: #87d0e3;
+      float: left;
+      line-height: 40px;
+      text-align: center; }
+    .login form .btns .zhuce-a {
+      width: 105px;
+      float: left;
+      height: 40px;
+      background: #ededed;
+      margin-left: 10px;
+      line-height: 40px;
+      text-align: center; }
+
+.zhuce {
+  width: 996px;
+  margin: 0 auto 20px;
+  padding: 45px 0 55px;
+  overflow: hidden; }
+  .zhuce form dl {
+    width: 280px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ededed;
+    line-height: 40px;
+    margin-bottom: 10px; }
+    .zhuce form dl dt {
+      width: 80px;
+      float: left;
+      border-right: 5px solid #fff;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 5px 0 10px; }
+    .zhuce form dl dd {
+      width: 180px;
+      height: 40px;
+      line-height: 40px;
+      float: left; }
+      .zhuce form dl dd input {
+        width: 170px;
+        float: left;
+        display: inline-block;
+        background: none;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 10px;
+        font-size: 14px;
+        color: #626262;
+        border: none; }
+    .zhuce form dl .tishi {
+      display: none;
+      width: 300px;
+      height: 32px;
+      float: left;
+      padding-left: 300px;
+      position: absolute;
+      font-size: 14px;
+      color: red; }
+      .zhuce form dl .tishi span {
+        display: inline-block;
+        padding: 0 20px 0 40px;
+        background: #ff9999;
+        height: 32px;
+        line-height: 32px; }
+  .zhuce form .btns {
+    width: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background: #87d0e3; }
+    .zhuce form .btns .zhuce-a {
+      width: 280px;
+      height: 40px;
+      line-height: 40px;
+      display: block; }
+
+.wu {
+  width: 996px;
+  height: 485px;
+  margin: 0 auto; }
+  .wu .wu-l {
+    width: 485px;
+    height: 485px;
+    float: left;
+    border: 1px solid #2093cc; }
+    .wu .wu-l img {
+      width: 485px;
+      height: 485px; }
+  .wu .wu-r {
+    width: 485px;
+    float: right;
+    height: 485px; }
+    .wu .wu-r .wu-p {
+      height: 290px;
+      width: 485px;
+      border: 1px solid #2093cc; }
+      .wu .wu-r .wu-p img {
+        height: 290px;
+        width: 485px; }
+    .wu .wu-r .xinxi {
+      width: 485px;
+      height: 70px; }
+      .wu .wu-r .xinxi .xinxi-info {
+        height: 70px;
+        width: 485px; }
+        .wu .wu-r .xinxi .xinxi-info .name {
+          width: 200px;
+          float: left;
+          height: 70px; }
+          .wu .wu-r .xinxi .xinxi-info .name h2 {
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            color: #2093cc; }
+          .wu .wu-r .xinxi .xinxi-info .name p {
+            height: 30px;
+            line-height: 30px;
+            color: #2093cc; }
+        .wu .wu-r .xinxi .xinxi-info .price {
+          padding-top: 40px;
+          height: 30px;
+          float: right;
+          line-height: 30px; }
+          .wu .wu-r .xinxi .xinxi-info .price i {
+            float: left;
+            font-size: 20px;
+            color: #2093cc;
+            height: 30px;
+            line-height: 30px; }
+          .wu .wu-r .xinxi .xinxi-info .price h2 {
+            float: left;
+            font-size: 20px;
+            color: #2093cc;
+            height: 30px;
+            line-height: 30px; }
+      .wu .wu-r .xinxi .type {
+        width: 217px;
+        height: 50px;
+        padding-left: 20px;
+        margin: 12px 12px 12px 0;
+        font-size: 13px;
+        color: #fff;
+        background: #2093cc;
+        float: left;
+        line-height: 50px; }
+        .wu .wu-r .xinxi .type select {
+          height: 30px;
+          width: 170px;
+          color: #2093cc; }
+      .wu .wu-r .xinxi .addche {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        margin: 12px 0;
+        color: #fff;
+        font-size: 15px;
+        background: #2093cc;
+        line-height: 50px; }
+      .wu .wu-r .xinxi .buy {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        color: #2093cc;
+        font-size: 15px;
+        background: yellow;
+        margin-right: 15px;
+        line-height: 50px; }
+      .wu .wu-r .xinxi .xq {
+        float: left;
+        width: 235px;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        background: #2093cc;
+        line-height: 50px; }
+
+.main {
+  overflow: hidden; }
+
+.imgs {
+  width: 996px;
+  height: auto;
+  margin: 10px auto  0; }
+
+.sample2 {
+  width: 996px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden; }
+  .sample2 h4 {
+    font-size: 14px;
+    color: #2093cc;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .sample2 ul {
+    width: 1330px; }
+    .sample2 ul li {
+      list-style-type: none;
+      float: left;
+      width: 322px;
+      margin-left: 14px; }
+      .sample2 ul li a {
+        display: block; }
+        .sample2 ul li a .jieshao {
+          width: 322px;
+          background: #87d0e3;
+          display: inline-block;
+          height: 50px; }
+          .sample2 ul li a .jieshao p {
+            line-height: 25px;
+            color: white;
+            font-size: 13px; }
+          .sample2 ul li a .jieshao label {
+            color: white;
+            font-size: 12px; }
+        .sample2 ul li a .jieshao-p {
+          width: 322px;
+          height: 218px;
+          overflow: hidden; }
+          .sample2 ul li a .jieshao-p img {
+            width: 322px;
+            transition: all 0.8s ease 0s; }
+            .sample2 ul li a .jieshao-p img:hover {
+              transform: scale(1.3, 1.3); }
+
+.sample2 ul li:nth-child(1) {
+  margin-left: 0px; }
+
+.dingdan {
+  width: 996px;
+  margin: 0 auto; }
+  .dingdan .dd-head {
+    width: 996px; }
+    .dingdan .dd-head li {
+      background: #626262;
+      line-height: 27px;
+      height: 27px;
+      width: 100%;
+      color: #fff;
+      font-size: 13px;
+      list-style-type: none; }
+      .dingdan .dd-head li span {
+        display: block;
+        float: left;
+        text-align: center; }
+      .dingdan .dd-head li .name {
+        padding-left: 98px;
+        width: 180px;
+        height: 27px; }
+      .dingdan .dd-head li .shuxing {
+        width: 150px;
+        height: 27px; }
+      .dingdan .dd-head li .danjia {
+        width: 150px;
+        height: 27px; }
+      .dingdan .dd-head li .shuliang {
+        width: 200px;
+        height: 27px; }
+      .dingdan .dd-head li .xiaoji {
+        width: 150px;
+        height: 27px; }
+      .dingdan .dd-head li .shanchu {
+        width: 218px;
+        height: 27px; }
+  .dingdan .dd-main li {
+    font-size: 13px;
+    height: 86px;
+    border-bottom: 1px solid;
+    line-height: 86px;
+    list-style-type: none; }
+    .dingdan .dd-main li span {
+      display: block;
+      float: left;
+      text-align: center;
+      height: 86px; }
+    .dingdan .dd-main li .name {
+      width: 278px;
+      height: 86px; }
+      .dingdan .dd-main li .name img {
+        width: 110px;
+        height: 86px;
+        float: left; }
+      .dingdan .dd-main li .name h3 {
+        float: left;
+        font-size: 13px; }
+    .dingdan .dd-main li .shuxing {
+      width: 150px;
+      height: 86px; }
+    .dingdan .dd-main li .danjia {
+      width: 150px;
+      height: 86px; }
+    .dingdan .dd-main li .shuliang {
+      width: 200px;
+      height: 54px;
+      padding-left: 40px;
+      padding-top: 32px; }
+      .dingdan .dd-main li .shuliang a {
+        width: 20px;
+        height: 20px;
+        display: block;
+        float: left;
+        border: #d5d5d5 1px solid;
+        text-align: center;
+        line-height: 20px; }
+      .dingdan .dd-main li .shuliang input {
+        width: 25px;
+        height: 18px;
+        text-align: center;
+        border: #d5d5d5 1px solid;
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px; }
+    .dingdan .dd-main li .xiaoji {
+      width: 150px;
+      height: 86px; }
+    .dingdan .dd-main li .shanchu {
+      width: 178px;
+      height: 86px; }
+      .dingdan .dd-main li .shanchu a {
+        font-size: 13px; }
+        .dingdan .dd-main li .shanchu a:hover {
+          color: red; }

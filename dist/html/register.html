@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html style="font-size:16px">
+<head>
+	<title>用户注册</title>
+	<link rel="stylesheet" type="text/css" href="/css/zhuce.css">
+	<!-- <script type="text/javascript" src="/libs/require.js" data-main="/js/index.js"></script> -->
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/zhuce.js"></script>
+	
+</head>
+<body>
+	<header>
+	</header>
+
+	<div class="main">
+		<div class="line">
+			<span class="line-l"></span>
+			<span class="line-wen">用户注册</span>
+			<span class="line-r"></span>
+		</div>
+		<div class="zhuce">
+			<form action="" id="zhuceyz">
+				<dl id="yz"><dt>手机号</dt><dd><input type="text" id="zhanghao" placeholder="请输入手机号"></dd><div class="tishi" id="ts1"><span>请您确认的手机号</span></div></dl>
+				<dl><dt>Email</dt><dd><input type="text" id="email" placeholder="请输入邮箱地址"></dd><div class="tishi" id="ts2"><span>输入正确的邮箱地址</span></div></dl>
+				<dl><dt>密码</dt><dd><input type="password" id="mima" placeholder="请输入6-20位字符"></dd><div class="tishi" id="ts3"><span>密码必须输入6-20位字符</span></div></dl>
+				<dl><dt>确认密码</dt><dd><input type="password" id="mima2" placeholder="请输入6-20位字符"></dd><div class="tishi" id="ts4"><span>两次密码输入不一致</span></div></dl>
+				<div class="btns"><a href="javascript:;" class="zhuce-a" id="zhuce">注册</a></div>
+			</form>
+		</div>
+	</div>
+	<div class="footer-help"></div>
+	<footer></footer>
+	<!-- <script>
+	$(function(){
+		/*$("#zhuce").on("click",function(){
+			if($("#zhanghao").val()=="" || $("#email").val()=="" || $("#mima").val()=="" ||$("#miam2").val()=="" ){alert("请填入完整注册信息");}
+			else{};
+		})*/
+	
+		
+		$("#zhanghao").focus(function(){
+			$("#ts1").css({"display":"block"})
+		})
+		$("#zhanghao").blur(function(){
+			console.log($("#zhanghao").val())
+			if(zhreg.test($("#zhanghao").val())){
+				$("#ts1").css({"display":"none"})
+			}
+			else{$("#ts1").css({"display":"block"})}
+		})
+	
+		$("#email").focus(function(){
+			$("#ts2").css({"display":"block"})
+		})
+		$("#email").blur(function(){
+			if(emailreg.test($("#email").val())){
+				$("#ts2").css({"display":"none"})
+			}
+			else{$("#ts2").css({"display":"block"})}
+		})
+	
+		$("#mima").focus(function(){
+			$("#ts3").css({"display":"block"})
+		})
+		$("#mima").blur(function(){
+			if(mimareg.test($("#mima").val())){
+				$("#ts3").css({"display":"none"})
+			}
+			else{$("#ts3").css({"display":"block"})}
+		})
+	
+		$("#mima2").focus(function(){
+			$("#ts4").css({"display":"none"})
+		})
+		$("#mima2").blur(function(){
+			if($("#mima").val()!=$("#mima2").val()){
+				$("#ts4").css({"display":"block"})
+			}
+		})
+	
+	})
+	</script> -->
+<!-- <div id="content"></div> -->
+<!-- <script type="text/html" id="list">
+	  <ul>
+	 		{{each data item index}}
+	 			<li>
+	 			{{each item value key}}
+	 					<b>{{key}}</b>:<i>{{value}}</i>
+	 			{{ /each}}
+	 			</li>
+	 		{{ /each }}
+
+	 		{{each data item index}}
+	 				<li>{{item.name}}&nbsp;{{item.age}}</li>
+	 		{{/each}}
+	 	</ul>
+</script> -->
+</body>
+</html>
